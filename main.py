@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -449,4 +449,3 @@ with st.expander("연도별 분석 데이터 보기"):
         display_data["전체기간 회귀기온"].round(2)
     )
     st.dataframe(display_data, use_container_width=True)
-```
